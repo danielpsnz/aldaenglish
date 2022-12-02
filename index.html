@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- **** CSS Styles **** -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- **** Icons **** -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/icon.png"
+    />
+
+    <!-- **** Animate CSS CDN **** -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>ALDA English | Cambridge English Assessments Helper</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>ALDA English</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">About us</a></li>
+        <li><a href="#testyourlevel" class="nav-link">Test your level</a></li>
+        <li><a href="#levels" class="nav-link">Levels</a></li>
+        <li><a href="#contact" class="nav-link">Contact us</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/Untitled_Artwork.png"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">About Me</h2>
+        <p class="bio-text">
+          Hello there! I am Alda. I am here to help you master your English. You can practice both
+          Use of English and Reading with me. If you need help with your vocabulary and phrasal verbs skills
+          you can practice that as well. 
+        </p>
+      </div>
+    </section>
+
+    <!-- Levels section -->
+    <section class="levels" id="levels">
+      <h2 class="level-header">Choose your level</h2>
+
+      <div class="levels-wrapper">
+
+        <div class="first-set animate__animated animate__pulse">
+          <div class="level-container">
+            <img
+              src="assets/icons/B1.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <h3 class="level-title">PET (B1)</h3>
+            <a href="#" target="_blank" class="level-link">Check it Out</a>
+          </div>
+
+          <div class="first-set animate__animated animate__pulse">
+            <div class="level-container">
+              <img
+                src="assets/icons/B2.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <h3 class="level-title">FCE (B2)</h3>
+              <a href="#" target="_blank" class="level-link">Check it Out</a>
+            </div>
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <div class="first-set animate__animated animate__pulse">
+            <div class="level-container">
+              <img
+                src="assets/icons/C1.png"
+                alt=""
+                loading="lazy"
+                class="icon icon-card"
+              />
+              <h3 class="level-title">CAE (C1)</h3>
+              <a href="#" target="_blank" class="level-link">Check it Out</a>
+            </div>
+
+          <div class="first-set animate__animated animate__pulse">
+          <div class="level-container">
+            <img
+              src="assets/icons/C2.png"
+              alt=""
+              loading="lazy"
+              class="icon icon-card"
+            />
+            <h3 class="level-title">CPE (C2)</h3>
+            <a href="#" target="_blank" class="level-link">Check it Out</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Get In Touch With Me</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Enter Your Name"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Enter Your Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Enter Your Message"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-twitter-circled.gif"
+          alt="Twitter"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-instagram.gif"
+          alt="Instagram"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="#" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2022</p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
