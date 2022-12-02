@@ -111,8 +111,8 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  height: 500px;
+  width: 750px;
 }
 
 .bio {
@@ -124,30 +124,15 @@ nav ul li {
 
 .bio h1 {
   margin-bottom: var(--bottom-margin);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
 /* Hero section ends */
-
-/* More about */
-.more-about {
-  background-color: var(--bg-color);
-  padding: 1rem 6rem;
-}
-
-.more-about h2 {
-  margin-bottom: var(--bottom-margin);
-  text-align: center;
-}
-
-.more-about p {
-  line-height: var(--line-height);
-  padding: 0.4rem;
-}
-/* More about ends */
 
 /* Levels section */
 .levels {
@@ -159,6 +144,8 @@ nav ul li {
 
 .level-header {
   margin-bottom: 1rem;
+  font-size: 40px;
+  font-family: fantasy;
 }
 
 .levels-wrapper img {
@@ -169,50 +156,11 @@ nav ul li {
   width: 200px;
   height: 250px;
 }
+
+.icon-card {
+  cursor: pointer;
+}
 /* Levels section ends */
-
-/* Projects section */
-.projects {
-  background-color: var(--bg-color);
-  padding: 32px 0;
-  margin-top: 2rem;
-}
-
-.project-pic {
-  width: 65%;
-  height: 60%;
-}
-
-.projects-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.projects-title {
-  text-align: center;
-  margin-bottom: 1rem;
-}
-
-.project-container {
-  text-align: center;
-  width: 21.875rem;
-  padding: 1rem;
-}
-
-.project-container p {
-  padding: 0.4rem;
-}
-
-.project-title {
-  margin-bottom: var(--bottom-margin);
-}
-
-.project-details {
-  margin-bottom: var(--bottom-margin);
-}
-
-/* Projects section ends */
 
 /* Contacts section */
 .contact {
